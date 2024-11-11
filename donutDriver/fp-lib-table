@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "donutlib")(type "KiCad")(uri "${KIPRJMOD}/donutlib.pretty")(options "")(descr ""))
+)

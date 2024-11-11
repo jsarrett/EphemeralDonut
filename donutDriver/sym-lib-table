@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "donutlib")(type "KiCad")(uri "${KIPRJMOD}/donutlib.kicad_sym")(options "")(descr ""))
+)

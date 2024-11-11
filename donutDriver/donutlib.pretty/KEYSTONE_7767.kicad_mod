@@ -1,0 +1,234 @@
+(footprint "KEYSTONE_7767"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4 Pin Screw Terminal, Power Tap M4 Through Hole")
+	(tags "terminal, screw")
+	(property "Reference" "REF**"
+		(at -1.01 -6.815 0)
+		(layer "F.SilkS")
+		(uuid "2a5695e2-96a1-4991-81bc-7df24448ab0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_7767"
+		(at 4.07 6.815 0)
+		(layer "F.Fab")
+		(uuid "3cd11016-898b-4164-b52b-430705b81390")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb9b422d-0f0b-43ac-aaf0-abcfd78d34fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p69.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05a03d87-f32a-4745-abf9-b14c901a8ac7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4 Pin Screw Terminal, Power Tap M4 Through Hole"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6be40589-ea35-4924-90e8-cae73a4fcac8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.935 -1.76)
+		(end -3.935 1.76)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1cf96691-7ce5-434e-9673-8ce19f6a18a1")
+	)
+	(fp_line
+		(start -0.755 -3.935)
+		(end 0.755 -3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09b692e3-50bf-4d02-931c-ee968306d7ca")
+	)
+	(fp_line
+		(start -0.755 3.935)
+		(end 0.755 3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68a1f20d-e4ad-46ae-b741-af8bcb39892c")
+	)
+	(fp_line
+		(start 3.935 -1.76)
+		(end 3.935 1.76)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc111852-e477-450d-ad12-3ec2f4f73bd6")
+	)
+	(fp_line
+		(start -4.185 -5.18)
+		(end -4.185 5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "437def2b-6c0e-4b0b-8495-1b8e9671c058")
+	)
+	(fp_line
+		(start -4.185 5.18)
+		(end 4.185 5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "185641b0-929a-4a8c-af1b-c7d914b3086f")
+	)
+	(fp_line
+		(start 4.185 -5.18)
+		(end -4.185 -5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dcdbec1a-d263-462c-b1e8-8e49680d15fc")
+	)
+	(fp_line
+		(start 4.185 5.18)
+		(end 4.185 -5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dadf670e-cc56-4cbf-9377-b23fb039c5e3")
+	)
+	(fp_line
+		(start -3.935 -3.935)
+		(end -3.935 3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "930c99c4-88bb-4bfb-8d6f-f33209097bbd")
+	)
+	(fp_line
+		(start -3.935 3.935)
+		(end 3.935 3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c70b1fe-99de-4ff8-9159-1d2f017dd5c6")
+	)
+	(fp_line
+		(start 3.935 -3.935)
+		(end -3.935 -3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12a1d0ab-6398-4357-bb84-461d214065d7")
+	)
+	(fp_line
+		(start 3.935 3.935)
+		(end 3.935 -3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52b4bd7d-ddc0-4c82-b2ee-12d4e7255f98")
+	)
+	(pad "1_1" thru_hole circle
+		(at -2.5 3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c59c6a2e-7c97-4a41-ab61-ad149bd7e515")
+	)
+	(pad "1_2" thru_hole circle
+		(at 2.5 3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0bde0abf-cd4a-466e-9004-6723aad4c2b5")
+	)
+	(pad "1_3" thru_hole circle
+		(at 2.5 -3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1c30a84f-0778-4199-948f-840abe86f261")
+	)
+	(pad "1_4" thru_hole circle
+		(at -2.5 -3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bded31b1-0a84-453d-b1d6-0af8a57f3023")
+	)
+	(model "${KIPRJMOD}/donutlib.pretty/7767.step"
+		(offset
+			(xyz 4 0 -5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
