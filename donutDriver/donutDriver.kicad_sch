@@ -3849,7 +3849,7 @@
 	)
 	(text "threaded M3 spacers for heatsink"
 		(exclude_from_sim no)
-		(at 98.044 110.744 0)
+		(at 98.044 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3941,6 +3941,101 @@
 			(justify left bottom)
 		)
 		(uuid "ca38be3b-4090-4d86-8730-65d311d2e28a")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0834e659-1155-4329-bc59-d15c4591c79a")
+		(property "Reference" "C10"
+			(at 192.786 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33pF"
+			(at 197.104 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "donutlib:TDK_Disc_D7.5mm_W5.0mm_P7.50mm"
+			(at 197.8152 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-disc/catalog/leaddisc_commercial_cc45_en.pdf?ref_disty=mouser"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC45SL3JD330JYNNA "
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6kV"
+			(at 199.136 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "SL"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50c38b35-3f4b-4bdf-a0c3-32d37f74e751")
+		)
+		(pin "2"
+			(uuid "e265d267-254a-4cbf-9b42-a7a65f4eef59")
+		)
+		(instances
+			(project "donutDriver"
+				(path "/0c63fd46-c646-431d-b639-7c2f9c07df2c"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -4040,7 +4135,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 90.17 130.81 0)
+		(at 90.17 123.19 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4049,7 +4144,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d8882ee-ca41-4146-882e-827fdd677dc5")
 		(property "Reference" "H4"
-			(at 92.71 129.5399 0)
+			(at 92.71 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4153,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 92.71 132.0799 0)
+			(at 92.71 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4162,7 @@
 			)
 		)
 		(property "Footprint" "donutlib:WA-SMSI_9774025360"
-			(at 90.17 130.81 0)
+			(at 90.17 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 130.81 0)
+			(at 90.17 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4180,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 90.17 130.81 0)
+			(at 90.17 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4199,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 90.17 120.65 0)
+		(at 90.17 113.03 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4113,7 +4208,7 @@
 		(fields_autoplaced yes)
 		(uuid "17ace9a3-136f-4aeb-9678-a1627048effd")
 		(property "Reference" "H2"
-			(at 92.71 119.3799 0)
+			(at 92.71 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4217,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 92.71 121.9199 0)
+			(at 92.71 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4226,7 @@
 			)
 		)
 		(property "Footprint" "donutlib:WA-SMSI_9774025360"
-			(at 90.17 120.65 0)
+			(at 90.17 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4235,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 120.65 0)
+			(at 90.17 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4244,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 90.17 120.65 0)
+			(at 90.17 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,6 +5193,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 190.5 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "402113fa-a87b-4ce0-96f0-5a6890decdf3")
+		(property "Reference" "C9"
+			(at 186.436 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33pF"
+			(at 190.754 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "donutlib:TDK_Disc_D7.5mm_W5.0mm_P7.50mm"
+			(at 191.4652 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-disc/catalog/leaddisc_commercial_cc45_en.pdf?ref_disty=mouser"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC45SL3JD330JYNNA "
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6kV"
+			(at 192.786 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "SL"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d378371-6e12-4fc8-81b6-4099a65bc27b")
+		)
+		(pin "2"
+			(uuid "9cd29564-e0c4-4523-a517-a9e80c21fd9a")
+		)
+		(instances
+			(project "donutDriver"
+				(path "/0c63fd46-c646-431d-b639-7c2f9c07df2c"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 69.85 0)
 		(unit 1)
@@ -5190,7 +5380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
+		(property "Footprint" "donutlib:TDK_Disc_D7.5mm_W5.0mm_P7.50mm"
 			(at 178.7652 91.44 0)
 			(effects
 				(font
@@ -5349,101 +5539,6 @@
 			(project "donutDriver"
 				(path "/0c63fd46-c646-431d-b639-7c2f9c07df2c"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 184.15 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e114582-0add-477b-b1ef-13933e93f40b")
-		(property "Reference" "C10"
-			(at 180.086 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF"
-			(at 184.404 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
-			(at 185.1152 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-disc/catalog/leaddisc_commercial_cc45_en.pdf?ref_disty=mouser"
-			(at 184.15 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 184.15 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC45SL3JD330JYNNA "
-			(at 184.15 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "6kV"
-			(at 186.436 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "SL"
-			(at 184.15 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3935cd30-2e5d-4bc9-899c-67fab1d8c8aa")
-		)
-		(pin "2"
-			(uuid "a874f650-3190-400c-aed9-2507dd87346b")
-		)
-		(instances
-			(project "donutDriver"
-				(path "/0c63fd46-c646-431d-b639-7c2f9c07df2c"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6398,101 +6493,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 203.2 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75aec2c8-3c00-4384-9807-a67079377a7e")
-		(property "Reference" "C11"
-			(at 199.136 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF"
-			(at 203.708 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
-			(at 204.1652 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-disc/catalog/leaddisc_commercial_cc45_en.pdf?ref_disty=mouser"
-			(at 203.2 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 203.2 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC45SL3JD330JYNNA "
-			(at 203.2 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "6kV"
-			(at 205.994 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "SL"
-			(at 203.2 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6754dd70-7b42-458a-947c-589fa3ede697")
-		)
-		(pin "2"
-			(uuid "2be44a4f-c41d-4713-afa8-a14ca4f23131")
-		)
-		(instances
-			(project "donutDriver"
-				(path "/0c63fd46-c646-431d-b639-7c2f9c07df2c"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 194.31 62.23 0)
 		(unit 1)
@@ -6642,7 +6642,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 90.17 125.73 0)
+		(at 90.17 118.11 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6651,7 +6651,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bdd1223-543e-43e5-9146-9b09c388d23e")
 		(property "Reference" "H3"
-			(at 92.71 124.4599 0)
+			(at 92.71 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6660,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 92.71 126.9999 0)
+			(at 92.71 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6669,7 @@
 			)
 		)
 		(property "Footprint" "donutlib:WA-SMSI_9774025360"
-			(at 90.17 125.73 0)
+			(at 90.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6678,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 125.73 0)
+			(at 90.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6687,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 90.17 125.73 0)
+			(at 90.17 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7219,6 +7219,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 184.15 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d2cf50f-5500-4230-97c5-1777b9ae1f04")
+		(property "Reference" "C8"
+			(at 180.086 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33pF"
+			(at 184.404 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "donutlib:TDK_Disc_D7.5mm_W5.0mm_P7.50mm"
+			(at 185.1152 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-disc/catalog/leaddisc_commercial_cc45_en.pdf?ref_disty=mouser"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC45SL3JD330JYNNA "
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "6kV"
+			(at 186.436 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "SL"
+			(at 184.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc2c6ce0-5cb6-4cec-8e00-04c83e0a1d2f")
+		)
+		(pin "2"
+			(uuid "021dab3e-e0a0-45da-9091-a0264ed399b7")
+		)
+		(instances
+			(project "donutDriver"
+				(path "/0c63fd46-c646-431d-b639-7c2f9c07df2c"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "donutlib:IPP320N20N3")
 		(at 177.8 58.42 0)
 		(unit 1)
@@ -7361,15 +7456,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 87.63 0)
+		(at 203.2 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a97a9927-b964-433e-87e1-c24f91d6f87a")
-		(property "Reference" "C9"
-			(at 187.452 85.598 0)
+		(uuid "aa909588-6006-4a29-90b5-dcb12346e731")
+		(property "Reference" "C11"
+			(at 199.136 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7473,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 191.262 89.916 0)
+			(at 203.454 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7386,8 +7481,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
-			(at 191.4652 91.44 0)
+		(property "Footprint" "donutlib:TDK_Disc_D7.5mm_W5.0mm_P7.50mm"
+			(at 204.1652 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7491,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-disc/catalog/leaddisc_commercial_cc45_en.pdf?ref_disty=mouser"
-			(at 190.5 87.63 0)
+			(at 203.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7500,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 190.5 87.63 0)
+			(at 203.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,7 +7509,7 @@
 			)
 		)
 		(property "MPN" "CC45SL3JD330JYNNA "
-			(at 190.5 87.63 0)
+			(at 203.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,7 +7518,7 @@
 			)
 		)
 		(property "Voltage" "6kV"
-			(at 193.294 91.694 0)
+			(at 205.486 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,7 +7526,7 @@
 			)
 		)
 		(property "Dielectric" "SL"
-			(at 190.5 87.63 0)
+			(at 203.2 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7440,15 +7535,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "11f02a92-fde2-4131-9d5d-90d62a4006c2")
+			(uuid "6744d4a9-f4b1-49d4-9d33-e5da04993c81")
 		)
 		(pin "2"
-			(uuid "f23bee0b-5186-413c-ac13-c97bc997b9cb")
+			(uuid "d587d238-ff7a-4497-a2ee-ddd508559e9b")
 		)
 		(instances
 			(project "donutDriver"
 				(path "/0c63fd46-c646-431d-b639-7c2f9c07df2c"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7658,103 +7753,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 196.85 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6a0021a-9b44-425b-a3aa-d6a38d6cc21f")
-		(property "Reference" "C8"
-			(at 193.548 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF"
-			(at 197.358 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm"
-			(at 197.8152 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-disc/catalog/leaddisc_commercial_cc45_en.pdf?ref_disty=mouser"
-			(at 196.85 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 196.85 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC45SL3JD330JYNNA "
-			(at 196.85 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "6kV"
-			(at 199.39 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "SL"
-			(at 196.85 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9ba1618-66f8-4cbb-80e4-e50e04a28c77")
-		)
-		(pin "2"
-			(uuid "1725f08d-1d46-45bc-ac4f-b0843e7cdf6d")
-		)
-		(instances
-			(project ""
-				(path "/0c63fd46-c646-431d-b639-7c2f9c07df2c"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 90.17 115.57 0)
+		(at 90.17 107.95 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7763,7 +7763,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2262fda-624e-46cd-8fe6-9188f754e047")
 		(property "Reference" "H1"
-			(at 92.71 114.2999 0)
+			(at 92.71 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +7772,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 92.71 116.8399 0)
+			(at 92.71 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7781,7 +7781,7 @@
 			)
 		)
 		(property "Footprint" "donutlib:WA-SMSI_9774025360"
-			(at 90.17 115.57 0)
+			(at 90.17 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +7790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 115.57 0)
+			(at 90.17 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,7 +7799,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 90.17 115.57 0)
+			(at 90.17 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
